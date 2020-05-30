@@ -1,0 +1,95 @@
+body {
+    background-color: lightgreen;
+    max-width: auto;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #665544;}
+h2 {
+    background-color: #efefef;
+    text-decoration: darkolivegreen;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #efefef;}
+div {
+    border: 2px solid darkgreen;
+    overflow: auto;
+    align-self: center;
+} 
+footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    padding: 25px;
+    font-size: 30px;
+}
+.inner intro{
+    align-self: center;
+    text-align: center;    
+}
+.topnav {
+    background-color: green;
+    overflow: hidden;
+    font-size: 50px;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 50px;}
+.topnav a:hover {
+    background-color: #ddd;
+    color:seagreen;}
+.topnav a.active {
+    background-color: #4CAF50;
+    color:gray;}
+
+.maincard,.rcard{
+    display: flex;
+    flex-direction: row;
+}
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    padding: 25px;
+    font-size: 30px;
+}
+.box{
+    background-color:  rgb(79, 124, 79);
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+.background{
+    color: lawngreen;
+}
+.main{
+    color: lightcoral;
+    fill-opacity: inherit;
+    background-color: lightcoral;
+}
+.btng{
+    display: flex;    
+    flex-direction: column;   
+}
+.welcometext{
+    display: flex;
+    flex-direction: column  ;
+}
